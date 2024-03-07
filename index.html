@@ -6,6 +6,9 @@
     <title>Document</title>
   <link rel="stylesheet" href="form.css">
 </head>
+<style>
+   
+</style>
 
 <body>
     <!-- nav -->
@@ -17,43 +20,192 @@
 
 
 
-   <div style="background-color: whitesmoke;">
+   <div class="sform" style="background-color: whitesmoke;">
+    <!-- side bar -->
         <div class="columnside">
             <h3>Menu:</h3>
             
-                <a href="#"><button style="border: none; ">Home</button></a><br><br>
-                <a href="#"><button style="border: none;">Services</button></a><br><br>
-                <a href="#"><button style="border: none;">About</button></a>
+                <a href="#"><button id="button" style="border: none; ">Home</button></a><br><br>
+                <a href="#"><button id="button"style="border: none;">Services</button></a><br><br>
+                <a href="#"><button id="button"style="border: none;">About</button></a>
             
           </div>
-    
+    <!-- survey form -->
             <div class="columnmain">
         
                    <div class="form">
-                    <img src="images/front-view-smiley-man-holding-laptop.jpg" alt="" width="800px" height="500px"><br><br>
+                    <img src="images/front-view-smiley-man-holding-laptop.jpg" alt="" width="800px" height="500px">
     
-                        <form action="" style="align-items: center;margin-top: 10px; margin-right: 10px; margin-left: 10px;">
-                
-                            <label for=""style="font-weight: bolder;">Name:</label><br>
-                            <input type="text" placeholder="First Name" style="width: 40%; height: 25px; border-radius: 5px; border: solid black;" >
-                            <input type="text" placeholder="Last name" style="width: 40%; height: 25px; border-radius: 5px; border: solid black;"> <br><br>
-            
-                            <label for=""style="font-weight: bolder;"> Email:</label><br>
-                            <input type="email" style="width: 40%; height: 25px; border-radius: 5px; border: solid black;"><br><br>
-                            <label for=""style="font-weight: bolder;"> Phone:</label><br>
-                            <input type="text" style="width: 40%; height: 25px; border-radius: 5px; border: solid black;">
-                               <br><br><br> <hr><br><br>
-        
-        
-                                <label for="" style="font-weight: bolder;">Name of the product:</label> <br>
-                                <input type="text"   style="width: 40%; height: 25px; border-radius: 5px; border: solid black; ">
-                                <br><br>
-                                <label for="">1)</label>
-                                <button></button>
-
-
-                    </form>
                     
+                            <form action="" >
+                                <div class="personalinfo">
+                                    <div class="first">
+                                        <!-- name -->
+                                        <div class="name">
+                                            <label for="" style="font-weight: bolder;  margin-left:50px;">Name:</label>
+                                            <input type="text"style=" height: 25px; margin-left: 5px; margin-right: 10px;" placeholder="ful name">
+                                        </div>
+                                            <div class="email">
+                                                <label for="" style="font-weight: bolder;  margin-left:20px;">Email:</label>
+                                                <input type="email"style="  height: 30px; margin-left: 5px; margin-right: 10px;" >
+                                            </div>
+                                      
+                                    </div>
+                                    <div class="second" style="margin-top: 30px;">
+                                        
+                                        <div class="phone" style="margin-top: 30px;">
+                                            <label for="" style="font-weight: bolder;  margin-left:50px;">phone:</label>
+                                            <input type="text"style=" height: 25px; margin-left: 5px; margin-right: 10px;" >
+                                        </div>
+                                        <div class="place" style="margin-top: 30px;">
+                                            <label for="" style="font-weight: bolder;  margin-left:20px;">Place:</label>
+                                            <input type="text"style=" height: 25px; margin-left: 5px; margin-right: 10px;" >
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </form>
+                              
+                               <!-- <div class="inputfield">
+                                        <label for=""style="font-weight: bolder; margin-left:10px ; ">Name:</label>
+                                        <input type="text" placeholder="" style="width: 40%; height: 25px; border:  solid black; border-radius: 5px;box-shadow: 0 5px 10px gray; " ><br><br>
+                                     
+                                        <label for=""style="font-weight: bolder;  margin-left:10px;"> Email:</label>
+                                        <input type="email" style="width: 40%; height: 25px; border-radius: 5px;  border: 2px solid black; box-shadow: 0 5px 10px gray;"><br><br>
+                                    
+                                        <label for=""style="font-weight: bolder; margin-left:10px; "> Phone:</label>
+                                        <input type="text" style="width: 40%; height: 25px; border-radius: 5px; border: 2px solid black;box-shadow: 0 5px 10px gray;"><br><br>
+                                           
+                                 
+                                   
+                                    <label for=""style="font-weight: bolder;  margin-left:10px;"> Date:</label>
+                                    <input type="date" style="width: 40%; height: 25px; border-radius: 5px; border: 2px solid black;box-shadow: 0 5px 10px gray;"><br><br>
+                                       
+                              
+                               </div> -->
+
+
+
+
+                                
+                                
+                                <div class="productreview" style="padding-top: 30px;">
+                                    <form action="">
+
+                                     <div class="firstpart">
+                                            <!-- satisfication part -->
+                                           <div class="satisfication" ">
+                                                <label for="status"style="font-weight: bolder;  margin-left:20px;">1)Overall, how satisfied are you with product :</label>
+    
+                                                <div class="sts" style="margin-top: 10px;">
+                                                    <div class="stsinput" style="margin-left: 35px; margin-right: 10px;">
+                                                        <input type="radio" id="satisfied" name="satus" value="satisfied">
+                                                        <label for="satisfied" style="font-weight: bolder;">Satisfied</label><br>
+                                                
+                                                    </div>
+                                                   
+                                                    <div class="stsinput" style="margin-right:  10px;">
+                                                        <input type="radio" id="neutral" name="satus" value="neutral">
+                                                        <label for="neutral"  style="font-weight: bolder;">Neutral</label><br>
+                                                    </div>
+                                            
+                                                    <div class="stsinput" style="margin-right:  10px;">
+                                                        <input type="radio" id="unsatisfied" name="satus" value="unsatisfied">
+                                                        <label for="unsatisfied" style="font-weight: bolder;">Un satisfied</label>
+                                                    </div>
+                                            
+                                                   
+                                                </div>
+                                           </div>
+                                           
+    
+                                           <!-- expectation part -->
+                                           <div class="expectation" >
+                                            <label for="Review" style="font-weight: bolder;  margin-left:80px;">2)Did our product or service meet your expectation:</label>
+    
+                                            <div class="exp" style="margin-top: 10px;">
+                                                <div class="expinput" style="margin-left: 35px; margin-right: 10px;">
+                                                    <input type="radio" id="neutral" name="satus" value="yes" style="margin-left: 70px;">
+                                                    <label for="yes"  style="font-weight: bolder; ">Yes</label><br>
+                                                </div>
+                                        
+                                                <div class="expinputt" style="margin-right:  10px;">
+                                                    <input type="radio" id="unsatisfied" name="satus" value="no">
+                                                    <label for="no" style="font-weight: bolder;">No</label><br>
+                                                </div>
+                                                
+                                            </div>
+    
+                                           </div>
+    
+                                     </div>
+                                      <div class="secondpart" style="margin-top: 40px;">
+                                           <!-- recomandation part -->
+    
+                                           <div class="recomendation" style="margin-top: 25px; ">
+                                            <label for="" style="font-weight: bolder;  margin-left:20px;">3)Would you recommend this product  to a friend:</label>
+    
+                                            <div class="rec" style="margin-top: 10px;">
+                                                <div class="recominput" style="margin-left: 35px; margin-right: 10px;"">
+                                                    <input type="radio" id="neutral" name="satus" value="yes">
+                                                    <label for="yes"  style="font-weight: bolder;">Yes</label><br>
+                                                </div>
+                                        
+                                                <div class="recominput" style="margin-right:  10px;">
+                                                    <input type="radio" id="unsatisfied" name="satus" value="no">
+                                                    <label for="no" style="font-weight: bolder;">No</label><br>
+                                                </div>
+                                                <div class="recominput" style="margin-right:  10px;">
+                                                    <input type="radio" id="unsatisfied" name="satus" value="no">
+                                                    <label for="no" style="font-weight: bolder;">May be</label><br>
+                                                </div>
+                                                
+                                            </div>
+    
+                                           </div>
+    
+                                           <!-- aspect part -->
+                                            <div class="aspect" style="margin-top: 30px; margin-left: 40px;">
+                                                <label for="aspect" style="font-weight: bolder;  margin-left:20px;">4)What aspect of the product is most satisfied by:</label>
+                                                <div class="asp" style="margin-top: 10px;">
+                                                    <div class="aspectinput" style="margin-left: 35px; margin-right: 10px;">
+                                                        <input type="radio" id="price" name="satus" value="Price">
+                                                        <label for="price"  style="font-weight: bolder;">Price</label>
+                                                    </div>
+                                            
+                                                    <div class="aspectinput" style="margin-right:  10px;">
+                                                        <input type="radio" id="Quality" name="satus" value="Quality">
+                                                        <label for="Quality" style="font-weight: bolder;">Quality</label>
+                                                    </div>
+                                                    <div class="aspectinput" style="margin-right:  10px;">
+                                                        <input type="radio" id="Quality" name="satus" value="Quality">
+                                                        <label for="aspect" style="font-weight: bolder;  ">Other</label>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                      </div>
+
+                                      <div class="thirdpart" style="margin-top: 40px; margin-bottom: 40px;">
+                                        <label for="" style="font-weight: bolder;  margin-left:20px; margin-bottom: 30px;">5)Any other comments about product:</label><br><br>
+                                        <textarea name="" id="" cols="60" rows="10" style="margin-left: 30px; width: 400px; border-radius: 5px;  border: 2px solid black; box-shadow: 0 5px 10px gray;"" placeholder="Explain Briefly"></textarea>
+                                      </div>
+                                    </form>
+                                    <div class="button" style="text-align: center; margin-top: 60px;padding-left: 30px;padding-right: 30px; padding-bottom: 60px; ">
+                                        <button style="align-items: center ; width: 80%; height: 40px; background-color: rgb(51, 190, 51); border-radius: 3px;border: 1px;font-size: 20px;">SUBMIT</button>
+
+                                    </div>
+
+                                </div>
+
+                                
+                                </div>
+
+
+                    
+                          
+
+
+                   
                
                 </div>
                 <br><br>

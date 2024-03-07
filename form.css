@@ -8,40 +8,119 @@
 
 
 }
+.sform{
+    display: flex;
+    
+   
+}
+.personalinfo{
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black ;
+   margin-left: 20px;
+   margin-right: 20px;
+}
 
 .columnmain{
     background-color:rgb(232, 234, 255);
     float: right;
     border-left: 1px solid black;
-    
+    width: 100%;   
   
+}
+.first{
+    display: flex;
+
+}
+.second{
+    display: flex;
+    margin-bottom: 30px;
 }
 
 .columnside{ 
   float: left;
-  margin-right: 10px;
+  margin-right: 70px;
+ 
+
 
 }
 
-.form{
+/* .form{
     background-color: white;
     align-items: initial;
     border: 1px solid black;
     border-radius: 5px;
     margin-top: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+    
+} */
+.form{
+    position: relative;
+    margin-top:100px ;
+    margin-right: 150px;
+    margin-left: 150px;
     margin-bottom: 100px;
+    box-shadow: 0 5px 10px gray;
+    background-color: white;
 }
-button:hover{
+#button:hover{
     color: green;
     background-color: aliceblue;
     font-size: 30px;
+    border-radius: 2px;
 }
-button{
+#button{
     font-size: 20px;
-    width: 100%;
+    
 }
 .rating1{
     float: left;
 }
+/* .information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+} */
+.sts{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.exp{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rec{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.asp{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.firstpart{
+    display: flex;
+    
+}
+.secondpart{
+    display: flex;
+    
+    
+}
+.button{
+    border-top: 1px solid black ;
+    padding-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
