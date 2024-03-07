@@ -1,0 +1,40 @@
+.navbar{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+    border-bottom:1px solid black;
+    margin-bottom: 1px;
+    width: 100%;
+}
+.main{
+    display: flex;  
+}
+#button:hover{
+    color: green;
+    background-color: aliceblue;
+    font-size: 30px;
+    border-radius: 2px;
+}
+#button{
+    font-size: 20px;
+    
+}
+.columnright{
+    background-color:rgb(232, 234, 255);
+    border-left: 1px solid black;
+    width: 100%;   
+  
+}
+.columnside{ 
+    float: left;
+    margin-right: 70px;
+    
+}
+.form{
+    position: relative;
+    margin-top:100px ;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    box-shadow: 0 5px 10px gray;
+    background-color: white;
+}
