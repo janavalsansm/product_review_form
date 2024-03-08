@@ -20,8 +20,7 @@
 }
 .columnright{
     background-color:rgb(232, 234, 255);
-    border-left: 1px solid black;
-    width: 100%;   
+    border-left: 1px solid black;   
   
 }
 .columnside{ 
@@ -30,11 +29,29 @@
     
 }
 .form{
-    position: relative;
     margin-top:100px ;
     margin-right: 150px;
     margin-left: 150px;
     margin-bottom: 100px;
     box-shadow: 0 5px 10px gray;
     background-color: white;
+    text-align: center;
+}
+.propic{
+    padding-top: 100px;
+    padding-left: 50vh;
+    padding-right: 50vh;
+}
+.midsection{
+    display:flex;
+    height:40px;
+    width:400px;
+    border:black;
+    border-radius:3px;
+    margin-left:25%;
+    box-shadow:0 5px 10px rgb(2, 2, 2);
+    
+}
+button{
+    
 }
